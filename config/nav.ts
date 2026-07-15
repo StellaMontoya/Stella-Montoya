@@ -9,6 +9,7 @@ export const siteConfig = {
   phoneHref: "+573108791852",
   whatsapp: "https://wa.me/573108791852",
   email: "luzesinmobiliaria@gmail.com",
+  portfolioUrl: "https://luzesinmobiliarias.com/",
   instagram: "https://www.instagram.com/stellamontoya_inmobiliaria",
   tiktok: "https://www.tiktok.com/@stellamontoyainmobiliari",
   location: "Medellín · Envigado · Valle de Aburrá",

@@ -75,7 +75,9 @@ export function Hero() {
             Agenda una consulta
           </a>
           <a
-            href="/portafolio"
+            href={siteConfig.portfolioUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-paper/40 px-7 py-3.5 font-mono text-xs uppercase tracking-[0.14em] text-paper transition-colors hover:border-paper"
           >
             Ver portafolio
