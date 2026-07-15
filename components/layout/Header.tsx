@@ -34,7 +34,7 @@ export function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
         <Link
           href="/"
-          className={`font-display text-xl tracking-tight transition-colors ${
+          className={`font-display text-2xl sm:text-3xl tracking-tight transition-colors ${
             scrolled || menuOpen ? "text-ink" : "text-paper"
           }`}
         >

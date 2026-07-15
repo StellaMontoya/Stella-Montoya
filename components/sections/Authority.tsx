@@ -5,23 +5,23 @@ import { motion } from "framer-motion";
 const credentials = [
   {
     label: "Trayectoria",
-    title: "15 a 20 años en el Valle de Aburrá",
-    body: "Compraventa, arriendo, avalúos y estudios de títulos en lotes, apartamentos, casas-lote, oficinas y locales de Antioquia.",
+    title: "Más de 15 años estructurando operaciones inmobiliarias",
+    body: "Compraventa, arriendo, avalúos y estudios de títulos para clientes locales e internacionales, con foco en cierres ágiles y en el menor tiempo posible.",
   },
   {
-    label: "Criterio técnico",
-    title: "Avalúos, títulos y promesas",
-    body: "Cada recomendación parte de análisis urbanístico, legal y financiero — no de intuición ni de presión de cierre.",
+    label: "Método",
+    title: "Cada decisión, respaldada por análisis técnico",
+    body: "Urbanístico, legal y financiero antes que instinto — así se estructuran operaciones que cierran rápido porque están bien fundamentadas desde el inicio.",
   },
   {
     label: "Red de aliados",
-    title: "Alianzas estratégicas verificadas",
-    body: "Un ecosistema de colegas y especialistas que amplía el portafolio disponible sin sacrificar el control del proceso.",
+    title: "Un ecosistema estratégico, no un directorio de contactos",
+    body: "Alianzas verificadas con colegas y especialistas que amplían el portafolio disponible, sin que usted pierda el control ni la trazabilidad del proceso.",
   },
   {
     label: "Filosofía",
     title: "Orientar, nunca convencer",
-    body: "Incluye decirle a un cliente cuando un inmueble no le conviene. La confianza se construye antes que la comisión.",
+    body: "La honestidad de decirle a un cliente cuando un inmueble no le conviene. La confianza se construye antes que los honorarios — y es lo que sostiene una trayectoria de clientes que regresan.",
   },
 ];
 

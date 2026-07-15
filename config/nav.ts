@@ -12,7 +12,7 @@ export const siteConfig = {
   portfolioUrl: "https://luzesinmobiliarias.com/",
   instagram: "https://www.instagram.com/stellamontoya_inmobiliaria",
   tiktok: "https://www.tiktok.com/@stellamontoyainmobiliari",
-  location: "Medellín · Envigado · Valle de Aburrá",
+  location: "Valle de Aburrá · Oriente Antioqueño · Alcance Internacional",
 } as const;
 
 export type NavItem = {
