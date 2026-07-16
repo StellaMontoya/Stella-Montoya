@@ -54,9 +54,9 @@ export function Hero() {
           variants={fadeUp}
           className="mt-8 max-w-xl text-base leading-relaxed text-paper/75 sm:text-lg"
         >
-          Quince a veinte años asesorando compra, venta, avalúos y estudios de
-          títulos en el Valle de Aburrá — con la honestidad de decirle a un
-          cliente cuando algo no le conviene.
+          Comprar, vender o invertir en un inmueble no debería ser una apuesta.
+
+En Stella Montoya analizamos cada operación con criterio técnico, experiencia y total transparencia para proteger tu patrimonio y ayudarte a tomar decisiones seguras, incluso cuando eso significa decirte que no es el momento de comprar o vender.
         </motion.p>
 
         <motion.div

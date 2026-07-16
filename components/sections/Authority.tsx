@@ -6,7 +6,7 @@ const credentials = [
   {
     label: "Trayectoria",
     title: "Más de 15 años estructurando operaciones inmobiliarias",
-    body: "Compraventa, arriendo, avalúos y estudios de títulos para clientes locales e internacionales, con foco en cierres ágiles y en el menor tiempo posible.",
+    body: "Compraventa, avalúos, estudios de títulos para clientes locales e internacionales, con foco en cierres ágiles y en el menor tiempo posible.",
   },
   {
     label: "Método",
@@ -45,11 +45,11 @@ export function Authority() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
-            <p className="font-mono text-xs uppercase tracking-[0.22em] text-gold">
-              Por qué Stella Montoya
+            <p className="text-center font-mono text-xs uppercase tracking-[0.22em] text-gold">
+              La confianza se construye con resultados
             </p>
-            <h2 className="mt-6 font-display text-4xl leading-tight text-ink sm:text-5xl">
-              Asesoría que se sostiene con criterio, no con presión.
+            <h2 className="mt-6 text-justify font-display text-4xl leading-tight text-ink sm:text-5xl">
+              Acompañamos cada operación con criterio técnico, visión estratégica y una atención completamente personalizada.
             </h2>
           </motion.div>
 
