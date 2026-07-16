@@ -87,10 +87,8 @@ export function Hero() {
 
       <div className="relative mt-20 border-t border-paper/10">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 font-mono text-[0.65rem] uppercase tracking-[0.14em] text-paper/50 lg:px-10">
-          <span>Compraventa · Avalúos · Estudios de títulos</span>
-          <span className="hidden sm:inline">
-            Asesoría consultiva, sin presión
-          </span>
+          <span>Avalúos • Estudios de títulos • Compraventas • Inversión inmobiliaria • Desarrollo de proyectos</span>
+          <span className="hidden sm:inline">Asesoría consultiva y técnica         </span>
         </div>
         <HorizonLine tone="gold" className="h-24 w-full opacity-70" />
       </div>
