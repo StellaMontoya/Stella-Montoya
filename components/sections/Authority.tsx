@@ -48,7 +48,7 @@ export function Authority() {
             <p className="text-center font-mono text-xs uppercase tracking-[0.22em] text-gold">
               La confianza se construye con resultados
             </p>
-            <h2 className="mt-6 text-justify font-display text-4xl leading-tight text-ink sm:text-5xl">
+            <h2 className="mt-6 max-w-2xl font-display text-4xl leading-tight text-ink sm:text-5xl">
               Acompañamos cada operación con criterio técnico, visión estratégica y una atención completamente personalizada.
             </h2>
           </motion.div>
