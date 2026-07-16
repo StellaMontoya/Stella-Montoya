@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { AboutStella } from "@/components/sections/AboutStella";
 import { Authority } from "@/components/sections/Authority";
 import { CallToAction } from "@/components/sections/CallToAction";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -12,6 +13,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <AboutStella />
       <Authority />
       <CallToAction />
     </>
