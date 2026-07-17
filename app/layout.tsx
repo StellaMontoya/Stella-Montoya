@@ -5,6 +5,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -47,6 +48,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );
