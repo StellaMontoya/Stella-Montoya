@@ -14,7 +14,7 @@ const services: Service[] = [
   {
     label: "Avalúos",
     title: "Avalúos comerciales con metodología técnica",
-    body: "Comparativo de mercado, método de ingresos y método de costos — el mismo rigor que exige un banco o una sucesión, aplicado a cada inmueble.",
+    body: "Verificación jurídica completa: folios, gravámenes, medidas cautelares y tradición del inmueble.",
     certified: true,
   },
   {
@@ -24,7 +24,7 @@ const services: Service[] = [
   },
   {
     label: "Promesas de compraventa",
-    title: "Redacción de promesas de compraventa",
+    title: "Redacción de Promesas de compraventa",
     body: "Documentos privados estructurados con base en la normatividad colombiana vigente, con cláusulas de arras y condición resolutoria bien definidas.",
   },
   {
@@ -36,7 +36,7 @@ const services: Service[] = [
   {
     label: "Inteligencia patrimonial con IA",
     title: "Inteligencia patrimonial apoyada en IA",
-    body: "Herramientas de inteligencia artificial integradas al análisis de mercado y a la operación diaria, para decisiones más rápidas y mejor fundamentadas.",
+    body: "IA integrada al análisis de mercado y la operación diaria, para decisiones más rápidas y fundamentadas.",
     certified: true,
   },
 ];
@@ -77,7 +77,7 @@ export function ServicesCarousel() {
   };
 
   return (
-    <section className="bg-pine-deep py-28 text-paper lg:py-36">
+    <section className="bg-pine-deep py-10 text-paper lg:py-14">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <motion.div
@@ -89,8 +89,8 @@ export function ServicesCarousel() {
             <p className="font-mono text-xs uppercase tracking-[0.22em] text-gold-soft">
               Servicios
             </p>
-            <h2 className="mt-6 max-w-xl font-display text-4xl leading-tight sm:text-5xl">
-              Cada servicio, con criterio técnico y respaldo verificable.
+            <h2 className="mt-4 max-w-xl font-display text-2xl leading-tight sm:text-3xl">
+              Criterio técnico y respaldo verificable.
             </h2>
           </motion.div>
 
@@ -118,13 +118,13 @@ export function ServicesCarousel() {
 
         <div
           ref={scrollerRef}
-          className="mt-14 flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          className="mt-8 flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         >
           {services.map((service) => (
             <div
               key={service.title}
               data-card
-              className="w-[85%] flex-none snap-start border border-paper/15 p-8 sm:w-[60%] lg:w-[31%]"
+              className="w-[85%] flex-none snap-start border border-paper/15 p-6 sm:w-[60%] lg:w-[31%]"
             >
               <div className="flex items-center justify-between">
                 <p className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-gold-soft">

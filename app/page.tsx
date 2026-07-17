@@ -15,8 +15,8 @@ export default function HomePage() {
     <>
       <Hero />
       <AboutStella />
-      <Authority />
       <ServicesCarousel /> 
+      <Authority />
       <CallToAction />
     </>
   );
