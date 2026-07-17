@@ -1,8 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { siteConfig } from "@/config/nav";
-import { HorizonLine } from "@/components/ui/HorizonLine";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 18 },
@@ -15,83 +14,39 @@ const fadeUp = {
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden bg-pine text-paper">
-      {/* atmósfera sutil, sin gradientes genéricos: un velo radial muy tenue */}
+    <section className="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden bg-pine text-paper px-6">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(199,166,87,0.14),transparent_60%)]"
       />
 
-      <div className="relative mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center px-6 pt-32 lg:px-10">
-        <motion.p
-          initial="hidden"
-          animate="visible"
-          custom={0}
-          variants={fadeUp}
-          className="font-mono text-xs uppercase tracking-[0.22em] text-gold-soft"
-        >
-          {siteConfig.location}
-        </motion.p>
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        custom={0}
+        variants={fadeUp}
+        className="relative w-full max-w-md sm:max-w-lg"
+      >
+        <Image
+          src="/images/logo-blanco.png"
+          alt="Stella Montoya"
+          width={770}
+          height={371}
+          className="h-auto w-full"
+          priority
+        />
+      </motion.div>
 
-        <motion.h1
-          initial="hidden"
-          animate="visible"
-          custom={0.12}
-          variants={fadeUp}
-          className="mt-6 max-w-3xl font-display text-[2.5rem] leading-[1.08] sm:text-6xl lg:text-7xl"
-        >
-          El criterio técnico
-          <br />
-          detrás de cada
-          <br />
-          decisión inmobiliaria.
-        </motion.h1>
-
-        <motion.p
-          initial="hidden"
-          animate="visible"
-          custom={0.26}
-          variants={fadeUp}
-          className="mt-8 max-w-xl text-base leading-relaxed text-paper/75 sm:text-lg"
-        >
-          Comprar, vender o invertir en un inmueble no debería ser una apuesta.
-
-En Stella Montoya analizamos cada operación con criterio técnico, experiencia y total transparencia para proteger tu patrimonio y ayudarte a tomar decisiones seguras, incluso cuando eso significa decirte que no es el momento de comprar o vender.
-        </motion.p>
-
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          custom={0.4}
-          variants={fadeUp}
-          className="mt-10 flex flex-wrap items-center gap-5"
-        >
-          <a
-            href={siteConfig.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gold px-7 py-3.5 font-mono text-xs uppercase tracking-[0.14em] text-pine-deep transition-colors hover:bg-gold-soft"
-          >
-            Agenda una consulta
-          </a>
-          <a
-            href={siteConfig.portfolioUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-paper/40 px-7 py-3.5 font-mono text-xs uppercase tracking-[0.14em] text-paper transition-colors hover:border-paper"
-          >
-            Ver portafolio
-          </a>
-        </motion.div>
-      </div>
-
-      <div className="relative mt-20 border-t border-paper/10">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 font-mono text-[0.65rem] uppercase tracking-[0.14em] text-paper/50 lg:px-10">
-          <span>Avalúos • Estudios de títulos • Compraventas • Inversión inmobiliaria • Desarrollo de proyectos</span>
-          <span className="hidden sm:inline">Asesoría consultiva y técnica         </span>
-        </div>
-        <HorizonLine tone="gold" className="h-24 w-full opacity-70" />
-      </div>
+      <motion.p
+        initial="hidden"
+        animate="visible"
+        custom={0.2}
+        variants={fadeUp}
+        className="relative mt-10 max-w-md text-center text-base leading-relaxed text-paper/75 sm:text-lg"
+      >
+        Estamos construyendo algo nuevo. Muy pronto, una experiencia digital a
+        la altura de cada decisión inmobiliaria que acompañamos.
+      </motion.p>
     </section>
   );
 }
