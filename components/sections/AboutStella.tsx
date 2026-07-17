@@ -42,17 +42,17 @@ export function AboutStella() {
             <p className="font-mono text-xs uppercase tracking-[0.22em] text-gold">
               Sobre Stella
             </p>
-            <h2 className="mt-6 max-w-xl font-display text-4xl leading-tight text-ink sm:text-5xl">
-              Quince años acompañando decisiones, no solo cerrando negocios.
+            <h2 className="mt-6 max-w-xl font-display text-4xl leading-tight text-ink sm:text-5xl text-center mx-auto">
+              Más de quince años acompañando decisiones, no solo cerrando negocios.
             </h2>
-            <p className="mt-8 max-w-xl text-base leading-relaxed text-ink/70">
+            <p className="mt-8 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
               Soy Stella Montoya, asesora inmobiliaria en ventas locales e
               internacionales. Brindo acompañamiento estratégico de principio
               a fin — integrando marketing digital, formación constante y
               criterio técnico — para conectar a cada cliente con su mejor
               inversión.
             </p>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/70">
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
               Trabajo con la misma exigencia sin importar si el cliente está
               en Envigado o al otro lado del mundo: análisis técnico primero,
               conveniencia del cliente por encima del cierre.
