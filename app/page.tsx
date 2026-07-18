@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { StatsBar } from "@/components/sections/StatsBar";
 import { AboutStella } from "@/components/sections/AboutStella";
 import { Authority } from "@/components/sections/Authority";
 import { CallToAction } from "@/components/sections/CallToAction";
@@ -14,6 +15,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <StatsBar />
       <AboutStella />
       <ServicesCarousel /> 
       <Authority />
