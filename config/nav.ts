@@ -1,7 +1,6 @@
 export const siteConfig = {
   name: "Stella Montoya",
-  tagline: "Conectando Inversores con Inversionistas Inmobiliarios",
-  description:
+    description:
     "Inteligencia Patrimonial Inmobiliaria en el Valle de Aburrá: avalúos, estudios de títulos, análisis de mercado y estrategia patrimonial, con criterio técnico y transparencia absoluta.",
   url: "https://stellamontoya.com",
   locale: "es_CO",
