@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function AboutStella() {
   return (
-    <section className="bg-paper py-28 lg:py-36">
+    <section className="bg-paper py-6 lg:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-12 lg:gap-20">
           <motion.div
@@ -15,7 +15,7 @@ export function AboutStella() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="relative lg:col-span-5"
           >
-            <div className="relative aspect-[3/4] w-full overflow-hidden">
+            <div className="relative aspect-[4/5] w-full overflow-hidden">
               <Image
                 src="/images/stella-retrato.jpg"
                 alt="Stella Montoya, asesora inmobiliaria"
@@ -42,23 +42,23 @@ export function AboutStella() {
             <p className="font-mono text-xs uppercase tracking-[0.22em] text-gold">
               Sobre Stella
             </p>
-            <h2 className="mt-6 max-w-xl font-display text-4xl leading-tight text-ink sm:text-5xl text-center mx-auto">
+            <h2 className="mt-4 max-w-xl font-display text-2xl leading-tight text-ink sm:text-3xl">
               Más de quince años acompañando decisiones, no solo cerrando negocios.
             </h2>
-            <p className="mt-8 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
               Soy Stella Montoya, asesora inmobiliaria en ventas locales e
               internacionales. Brindo acompañamiento estratégico de principio
               a fin — integrando marketing digital, formación constante y
               criterio técnico — para conectar a cada cliente con su mejor
               inversión.
             </p>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
               Trabajo con la misma exigencia sin importar si el cliente está
               en Envigado o al otro lado del mundo: análisis técnico primero,
               conveniencia del cliente por encima del cierre.
             </p>
             <p className="mt-8 font-display text-2xl italic text-pine">
-              — Stella Montoya
+              
             </p>
           </motion.div>
         </div>
