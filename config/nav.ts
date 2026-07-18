@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Stella Montoya",
   tagline: "Conectando Inversores con Inversionistas Inmobiliarios",
   description:
-    "Asesoría inmobiliaria estratégica en el Valle de Aburrá: compraventa, avalúos, estudios de títulos y promesas de compraventa, con criterio técnico y sin presión de venta.",
+    "Inteligencia Patrimonial Inmobiliaria en el Valle de Aburrá: avalúos, estudios de títulos, análisis de mercado y estrategia patrimonial, con criterio técnico y transparencia absoluta.",
   url: "https://stellamontoya.com",
   locale: "es_CO",
   phoneDisplay: "310 879 1852",

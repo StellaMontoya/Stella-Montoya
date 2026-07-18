@@ -1,15 +1,14 @@
 import Link from "next/link";
 import { navItems, siteConfig } from "@/config/nav";
-import { HorizonLine } from "@/components/ui/HorizonLine";
 
 export function Footer() {
   const year = new Date().getFullYear();
 
   return (
     <footer className="relative overflow-hidden bg-pine-deep text-paper">
-      <HorizonLine
-        tone="gold"
-        className="absolute inset-x-0 top-0 h-16 w-full opacity-20"
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-0 h-1 w-full bg-gradient-to-r from-pine via-gold to-gold-soft"
       />
 
       <div className="mx-auto max-w-7xl px-6 pb-10 pt-24 lg:px-10">
@@ -17,8 +16,8 @@ export function Footer() {
           <div>
             <p className="font-display text-2xl">{siteConfig.name}</p>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-paper/70">
-              {siteConfig.tagline}. Asesoría técnica, honesta y sin presión de
-              venta en el Valle de Aburrá.
+              Criterio técnico y transparencia en cada decisión
+              patrimonial.
             </p>
             <div className="mt-6 flex gap-5 font-mono text-[0.7rem] uppercase tracking-[0.14em] text-paper/70">
               <a

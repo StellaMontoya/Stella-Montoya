@@ -58,7 +58,7 @@ export function AboutStella() {
               seguridad y confianza.
             </p>
             <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/70 text-justify">
-              Creo que una buena asesoría no consiste en cerrar más negocios,
+              Una buena asesoría no consiste en cerrar más negocios,
               sino en ayudar a las personas a tomar la decisión correcta.
               Cuando una inversión representa un riesgo, también lo digo. Y
               cuando encuentro una verdadera oportunidad, acompaño cada paso
