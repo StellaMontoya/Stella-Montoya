@@ -14,13 +14,13 @@ const services: Service[] = [
   {
     label: "Avalúos",
     title: "Avalúos comerciales con metodología técnica",
-    body: "Verificación jurídica completa: folios, gravámenes, medidas cautelares y tradición del inmueble.",
+    body: "Comparativo de mercado, método de ingresos y de costos — el mismo rigor que exige un banco, aplicado a cada inmueble.",
     certified: true,
   },
   {
     label: "Estudios de títulos",
     title: "Estudios de títulos y saneamiento",
-    body: "Verificación jurídica completa antes de comprometer un solo peso: folios, gravámenes, medidas cautelares y tradición del inmueble.",
+    body: "Verificación jurídica completa: folios, gravámenes, medidas cautelares y tradición del inmueble.",
   },
   {
     label: "Promesas de compraventa",
@@ -35,8 +35,8 @@ const services: Service[] = [
   },
   {
     label: "Inteligencia patrimonial con IA",
-    title: "Inteligencia patrimonial apoyada en IA",
-    body: "IA integrada al análisis de mercado y la operación diaria, para decisiones más rápidas y fundamentadas.",
+    title: "Criterio técnico potenciado por IA",
+    body: "La inteligencia artificial fortalece mi capacidad de análisis, pero nunca reemplaza el juicio profesional. Cada recomendación integra experiencia, datos y tecnología para decisiones patrimoniales más precisas.",
     certified: true,
   },
 ];
@@ -77,7 +77,7 @@ export function ServicesCarousel() {
   };
 
   return (
-    <section className="bg-pine-deep py-10 text-paper lg:py-14">
+    <section className="bg-pine py-10 text-paper lg:py-14">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <motion.div
@@ -94,13 +94,13 @@ export function ServicesCarousel() {
             </h2>
           </motion.div>
 
-          <div className="flex gap-3">
+          <div className="flex items-stretch gap-3 self-stretch">
             <button
               type="button"
               onClick={() => scrollByCard("left")}
               disabled={!canScrollLeft}
               aria-label="Ver servicio anterior"
-              className="flex h-11 w-11 items-center justify-center border border-paper/30 text-paper transition-colors hover:border-gold hover:text-gold disabled:opacity-30 disabled:hover:border-paper/30 disabled:hover:text-paper"
+              className="flex w-12 items-center justify-center rounded-md border-2 border-paper/30 text-paper shadow-md transition-colors hover:border-gold hover:text-gold disabled:opacity-30 disabled:hover:border-paper/30 disabled:hover:text-paper"
             >
               ←
             </button>
@@ -109,7 +109,7 @@ export function ServicesCarousel() {
               onClick={() => scrollByCard("right")}
               disabled={!canScrollRight}
               aria-label="Ver siguiente servicio"
-              className="flex h-11 w-11 items-center justify-center border border-paper/30 text-paper transition-colors hover:border-gold hover:text-gold disabled:opacity-30 disabled:hover:border-paper/30 disabled:hover:text-paper"
+              className="flex w-12 items-center justify-center rounded-md border-2 border-paper/30 text-paper shadow-md transition-colors hover:border-gold hover:text-gold disabled:opacity-30 disabled:hover:border-paper/30 disabled:hover:text-paper"
             >
               →
             </button>
@@ -124,14 +124,14 @@ export function ServicesCarousel() {
             <div
               key={service.title}
               data-card
-              className="w-[85%] flex-none snap-start border border-paper/15 p-6 sm:w-[60%] lg:w-[31%]"
+              className="w-[85%] flex-none snap-start rounded-lg border-2 border-gold/40 bg-pine-deep p-6 shadow-xl sm:w-[60%] lg:w-[31%]"
             >
               <div className="flex items-center justify-between">
                 <p className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-gold-soft">
                   {service.label}
                 </p>
                 {service.certified && (
-                  <span className="font-mono text-[0.6rem] uppercase tracking-[0.1em] text-gold-soft/80">
+                  <span className="rounded-full bg-gold px-2.5 py-1 font-mono text-[0.55rem] uppercase tracking-[0.1em] text-pine-deep">
                     Certificado
                   </span>
                 )}
@@ -139,7 +139,7 @@ export function ServicesCarousel() {
               <h3 className="mt-5 font-display text-xl leading-snug">
                 {service.title}
               </h3>
-              <p className="mt-4 text-sm leading-relaxed text-paper/70">
+              <p className="mt-4 text-sm leading-relaxed text-paper/70 text-justify">
                 {service.body}
               </p>
             </div>
