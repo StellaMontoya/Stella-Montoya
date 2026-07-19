@@ -124,7 +124,7 @@ export function ServicesCarousel() {
             <div
               key={service.title}
               data-card
-              className="w-[85%] flex-none snap-start rounded-lg border-2 border-gold/40 bg-pine-deep p-6 shadow-xl sm:w-[60%] lg:w-[31%]"
+              className="w-[85%] flex-none snap-start rounded-xl border-[3px] border-gold bg-pine p-5 shadow-[0_20px_40px_-12px_rgba(0,0,0,0.45),0_0_0_1px_rgba(0,0,0,0.06)] sm:w-[60%] lg:w-[31%]"
             >
               <div className="flex items-center justify-between">
                 <p className="font-mono text-[0.65rem] uppercase tracking-[0.14em] text-gold-soft">
@@ -136,10 +136,10 @@ export function ServicesCarousel() {
                   </span>
                 )}
               </div>
-              <h3 className="mt-5 font-display text-xl leading-snug">
+              <h3 className="mt-4 font-display text-lg leading-snug">
                 {service.title}
               </h3>
-              <p className="mt-4 text-sm leading-relaxed text-paper/70 text-justify">
+              <p className="mt-3 text-xs leading-relaxed text-paper/70">
                 {service.body}
               </p>
             </div>
