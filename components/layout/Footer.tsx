@@ -14,13 +14,13 @@ export function Footer() {
 
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-14 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-[1.3fr_1fr_1fr]">
-          <div>
+          <div className="flex flex-col items-center text-center">
             <Image
               src="/images/logo-blanco.png"
               alt="Stella Montoya"
               width={180}
               height={87}
-              className="h-auto w-40"
+              className="mx-auto h-auto w-40 lg:mx-0"
             />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-paper">
               Criterio técnico y transparencia en cada decisión

@@ -4,7 +4,7 @@ export const siteConfig = {
     "Inteligencia Patrimonial Inmobiliaria en el Valle de Aburrá: avalúos, estudios de títulos, análisis de mercado y estrategia patrimonial, con criterio técnico y transparencia absoluta.",
   url: "https://stellamontoya.com",
   locale: "es_CO",
-  phoneDisplay: "310 879 1852",
+  phoneDisplay: "+57 310 879 1852",
   phoneHref: "+573108791852",
   whatsapp: "https://wa.me/573108791852",
   email: "luzesinmobiliaria@gmail.com",
